@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, ElementRef } from '@angular/core';
 
 
 @Component({
@@ -9,9 +8,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  title = 'Main page';
-
-  constructor(private router: Router) { }
+  /*
+  constructor(private router: Router, private elementRef: ElementRef) { }
 
   gotoSignup() {
     this.router.navigate(['/signup']);  // define your component where you want to go
@@ -19,5 +17,10 @@ export class AppComponent {
   gotoLogin() {
     this.router.navigate(['/login']);  // define your component where you want to go
   }
+
+  ngOnDestroy(): void {
+    this.elementRef.nativeElement.remove();
+  }
+  */
 
 }

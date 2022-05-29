@@ -11,10 +11,11 @@ import { LoginComponent } from './login/login.component'
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
 
 // separate Material Module made by Rahul Bali
-import { MaterialModule } from '../material.module'
+import { MaterialModule } from '../material.module';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
-  declarations: [AppComponent, SignUpComponent, LoginComponent, PageNotFoundComponent],
+  declarations: [AppComponent, SignUpComponent, LoginComponent, PageNotFoundComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
