@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Design Document
 
-https://docs.google.com/document/d/1htRNZ7WqMrwHxnGUB0qhEPCL_0NKob_1qsglxOBowQg/edit
+<a href="https://docs.google.com/document/d/1htRNZ7WqMrwHxnGUB0qhEPCL_0NKob_1qsglxOBowQg/edit" target="_blank"></a>
 
 ## Development server
 
