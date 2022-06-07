@@ -14,13 +14,6 @@ export class AppComponent {
   gotoSignup() {
     this.router.navigate(['/signup']);  // define your component where you want to go
   }
-  gotoLogin() {
-    this.router.navigate(['/login']);  // define your component where you want to go
-  }
-
-  ngOnDestroy(): void {
-    this.elementRef.nativeElement.remove();
-  }
   */
 
 }
