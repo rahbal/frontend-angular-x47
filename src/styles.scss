@@ -11,8 +11,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$frontend-angular-x47-primary: mat.define-palette(mat.$deep-purple-palette, 50);
-$frontend-angular-x47-accent: mat.define-palette(mat.$deep-purple-palette, 300); //, A200, A100, A400);
+$frontend-angular-x47-primary: mat.define-palette(mat.$deep-purple-palette);
+$frontend-angular-x47-accent: mat.define-palette(mat.$green-palette, 300); //, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $frontend-angular-x47-warn: mat.define-palette(mat.$red-palette);
@@ -128,6 +128,13 @@ svg.material-icons:not(:last-child) {
 
 .card svg.material-icons path {
   fill: #888;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
 }
 
 .card-container {
