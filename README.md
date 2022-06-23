@@ -29,3 +29,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Types of cards to display
+
+credit card size (4x3), slip card size (3x1)... 
+
+
+credit card size (4x3)
+- pic
+- title
+- rating
+- price range indication
+
+More ordered category...
+slip card size (3x1)
+- title
+- rating
+
