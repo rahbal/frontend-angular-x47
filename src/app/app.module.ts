@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core'
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser'
 
 import { AppRoutingModule } from './app-routing.module'
@@ -19,6 +20,7 @@ import { MaterialModule } from './material.module';
   declarations: [AppComponent, SignUpComponent, LoginComponent, PageNotFoundComponent, HomeComponent],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
